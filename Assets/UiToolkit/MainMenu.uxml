@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Menu" style="flex-grow: 1; top: auto;">
+        <ui:Label tabindex="-1" text="DOOM" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="position: relative; top: 0; left: 0; -unity-text-align: upper-center; font-size: 80px; color: rgb(220, 0, 0); align-self: center; -unity-font-style: bold;" />
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; align-self: auto; align-items: stretch; justify-content: center; width: auto;">
+            <ui:Button text="Level 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Level1Button" style="align-self: center; height: 53px; width: 214px; -unity-font-style: bold; font-size: 20px; margin-top: 10px;" />
+            <ui:Button text="Level 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Level2Button" style="align-self: center; height: 53px; width: 214px; -unity-font-style: bold; font-size: 20px; margin-top: 10px;" />
+            <ui:Button text="Level 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Level3Button" style="align-self: center; height: 53px; width: 214px; -unity-font-style: bold; font-size: 20px; margin-top: 10px;" />
+            <ui:Button text="Quit&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" style="align-self: center; height: 49px; width: 213px; -unity-font-style: bold; font-size: 20px; margin-top: 10px; margin-bottom: 10px; -unity-text-align: upper-center; justify-content: flex-start;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
